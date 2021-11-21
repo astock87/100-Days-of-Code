@@ -41,7 +41,7 @@ if direction == "left":
     print("You try to swim across but you feel a skeletel hand grab your leg and slowly pull you down into the depths. Game Over.")
 
   if river == "wait":
-    print("Once on the other side of the river you come to a town. You decide to get a room at the inn to rest for a while. The innkeeper tells you to pick any room.\n Once upstairs, you find three doors, one red, one blue and one yellow. You must choose one to enter.")
+    print("Once on the other side of the river you come to a town. You decide to get a room at the inn to rest for a while. The innkeeper tells you to pick any room.\nOnce upstairs, you find three doors, one red, one blue and one yellow. You must choose one to enter.")
     room = input("Which do you choose? Type red, blue or yellow.\n").lower()
     if room == "red":
       print("You encounter a room full of bandits hiding out. They kill you and take all of your gear. Game Over.")
