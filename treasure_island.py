@@ -46,6 +46,6 @@ if direction == "left":
     if room == "red":
       print("You encounter a room full of bandits hiding out. They kill you and take all of your gear. Game Over.")
     elif room == "blue":
-      print("You open the blue door and walk into the room. Unfortunately, this room is in need of repairs and you fall through the broken floor into a giant pit full\n of broken rocks and boards. You sadly break your neck and die. Game Over.")
+      print("You open the blue door and walk into the room. Unfortunately, this room is in need of repairs and you fall through the broken floor into a giant pit full\nof broken rocks and boards. You sadly break your neck and die. Game Over.")
     else:
-      print("You enter the room with the yellow door and find the most luxurious bed, where you lie down and fall into the most restful sleep you can ever remember having. Congratulations, you have found the treasure: the best night\'s sleep anyone could ever want. You Win!")
+      print("You enter the room with the yellow door and find the most luxurious bed, where you lie down and fall into the most restful sleep you can ever remember having. \nCongratulations, you have found the treasure: the best night\'s sleep anyone could ever want. You Win!")
