@@ -2,11 +2,11 @@
 age = input("What is your current age?")
 # 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
-#x = days
-#y = weeks
-#z = months
-#dead = 90
+# Write your code below this line 👇
+# x = days
+# y = weeks
+# z = months
+# dead = 90
 
 x = int(age) * 365
 y = int(age) * 52
