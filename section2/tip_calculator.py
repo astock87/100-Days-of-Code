@@ -8,7 +8,7 @@
 #Write your code below this line 👇
 print("Welcome to the tip calculator!")
 total = input("What was the total bill? $")
-tip = input("How much tip would you like to give? 10, 12 or 15? ")
+tip = input("How much tip would you like to give? 18, 20 or 22? ")
 split = input("How many people to split the bill? ")
 tip_percent = int(tip) / 100 + 1
 each = round((float(total) / int(split)) * float(tip_percent), 2)
