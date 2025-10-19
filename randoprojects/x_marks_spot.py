@@ -10,10 +10,11 @@ position = input("Where do you want to put the treasure? ")
 #Write your code below this row 👇
 #print(type(position))- str
 
-horizontal = int(position[0])
-vertical = int(position[1])
-
-map[vertical - 1][horizontal - 1] = "X"
+letter = position[0].lower()
+abc = ["a", "b", "c"]
+letter_index = abc.index(letter)
+number_index = int(position[1]) - 1
+map[number_index][letter_index] = "X"
 
 
 #Write your code above this row 👆
